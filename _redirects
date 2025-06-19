@@ -1,2 +1,3 @@
-# Netlify redirects for SPA
+# Netlify redirects for SPA and admin
+/admin/* /admin/index.html 200
 /*    /index.html   200
