@@ -8,19 +8,58 @@ public_folder: "/images/uploads"
 collections:
   - name: "pages"
     label: "Pages"
+    
     files:
       - label: "Home Page"
         name: "home"
         file: "content/home.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+          - {label: "Site Title (Page Title)", name: "site_title", widget: "string", default: "Purrfect Cat Café"}
+          - {label: "Hero Image (Image)", name: "hero_image", widget: "image", default: "https://placekitten.com/1600/900"}
+          - {label: "Hero Title (Main Heading)", name: "hero_title", widget: "string", default: "Sip, Purr, Repeat"}
+          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "text", default: "Specialty brews & the friendliest felines in town"}
+          - {label: "Hero Cta Text (Link)", name: "hero_cta_text", widget: "string", default: "#menu"}
+          - {label: "About Title (Section Heading)", name: "about_title", widget: "string", default: "Our Story"}
+          - {label: "About Content", name: "about_content", widget: "text", default: "Founded by cat-obsessed baristas, we blend artisan coffee with feline therapy. Every cup helps rescue kittens find forever homes."}
+          - {label: "About Image (Image)", name: "about_image", widget: "image", default: "https://placekitten.com/640/480"}
+          - {label: "Item Image (Image)", name: "item_image", widget: "image", default: "https://placekitten.com/400/300"}
+          - {label: "Item Name (Subsection Heading)", name: "item_name", widget: "string", default: "Meow-cha Latte"}
+          - {label: "Item Description", name: "item_description", widget: "text", default: "Matcha latte with oat milk, topped with paw-print cocoa."}
+          - {label: "Item Price", name: "item_price", widget: "string", default: "€4.50"}
+          - {label: "Testimonial Quote", name: "testimonial_quote", widget: "text", default: "“The cats healed my soul and the coffee woke it right back up!”"}
+          - {label: "Testimonial Author", name: "testimonial_author", widget: "string", default: "— Luna P."}
+          - {label: "Contact Email (Link)", name: "contact_email", widget: "string", default: "mailto:hello@purrfectcafe.com"}
+          - {label: "Contact Phone", name: "contact_phone", widget: "string", default: "+358 123 4567"}
+          - {label: "Contact Address", name: "contact_address", widget: "string", default: "Cat Street 42, 00100 Helsinki"}
+          - {label: "Footer Text", name: "footer_text", widget: "text", default: "©  Purrfect Cat Café — All rights reserved."}
+          - {label: "Hero Image (Image)", name: "hero_image", widget: "image", default: "https://placekitten.com/1600/900"}
+          - {label: "Hero Title (Main Heading)", name: "hero_title", widget: "string", default: "Sip, Purr, Repeat"}
+          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "text", default: "Specialty brews & the friendliest felines in town"}
+          - {label: "Hero Cta Text (Link)", name: "hero_cta_text", widget: "string", default: "#menu"}
+          - {label: "About Title (Section Heading)", name: "about_title", widget: "string", default: "Our Story"}
+          - {label: "About Content", name: "about_content", widget: "text", default: "Founded by cat-obsessed baristas, we blend artisan coffee with feline therapy. Every cup helps rescue kittens find forever homes."}
+          - {label: "About Image (Image)", name: "about_image", widget: "image", default: "https://placekitten.com/640/480"}
+          - {label: "Contact Email (Link)", name: "contact_email", widget: "string", default: "mailto:hello@purrfectcafe.com"}
+          - {label: "Contact Phone", name: "contact_phone", widget: "string", default: "+358 123 4567"}
+          - {label: "Contact Address", name: "contact_address", widget: "string", default: "Cat Street 42, 00100 Helsinki"}
+          - {label: "Footer Text", name: "footer_text", widget: "text", default: "©  Purrfect Cat Café — All rights reserved."}
+          - {label: "Font Extrabold (Section Heading)", name: "font_extrabold", widget: "string", default: "Cat-inspired Treats"}
+          - {label: "Font Bold (Section Heading)", name: "font_bold", widget: "string", default: "Get in Touch"}
+          - {label: "Paragraph 1", name: "paragraph_1", widget: "text", default: "Freshly brewed drinks & paw-some pastries"}
+    
+  - name: "menu"
+    label: "Menu"
+    folder: "content/menu"
+    
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Item Image (Image)", name: "item_image", widget: "image"}
+      - {label: "Item Name (Subsection Heading)", name: "item_name", widget: "string"}
+      - {label: "Item Description", name: "item_description", widget: "text"}
+      - {label: "Item Price", name: "item_price", widget: "string"}
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "content/testimonials"
+    
+    fields:
+      - {label: "Testimonial Quote", name: "testimonial_quote", widget: "text"}
+      - {label: "Testimonial Author", name: "testimonial_author", widget: "string"}
