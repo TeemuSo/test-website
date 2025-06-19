@@ -1,5 +1,5 @@
 ---
-testimonial_quote: "VITTU"
+testimonial_quote: "“The cats healed my soul and the coffee woke it right back up!”"
 testimonial_author: "— Luna P."
 ---
 

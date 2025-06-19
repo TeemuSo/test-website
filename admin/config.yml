@@ -32,18 +32,19 @@ collections:
           - {label: "Contact Phone", name: "contact_phone", widget: "string", default: "+358 123 4567"}
           - {label: "Contact Address", name: "contact_address", widget: "string", default: "Cat Street 42, 00100 Helsinki"}
           - {label: "Footer Text", name: "footer_text", widget: "text", default: "©  Purrfect Cat Café — All rights reserved."}
-          - {label: "Hero Image (Image)", name: "hero_image", widget: "image", default: "https://placekitten.com/1600/900"}
-          - {label: "Hero Title (Main Heading)", name: "hero_title", widget: "string", default: "Sip, Purr, Repeat"}
-          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "text", default: "Specialty brews & the friendliest felines in town"}
-          - {label: "Hero Cta Text (Link)", name: "hero_cta_text", widget: "string", default: "#menu"}
-          - {label: "About Title (Section Heading)", name: "about_title", widget: "string", default: "Our Story"}
-          - {label: "About Content", name: "about_content", widget: "text", default: "Founded by cat-obsessed baristas, we blend artisan coffee with feline therapy. Every cup helps rescue kittens find forever homes."}
-          - {label: "About Image (Image)", name: "about_image", widget: "image", default: "https://placekitten.com/640/480"}
-          - {label: "Contact Email (Link)", name: "contact_email", widget: "string", default: "mailto:hello@purrfectcafe.com"}
-          - {label: "Contact Phone", name: "contact_phone", widget: "string", default: "+358 123 4567"}
-          - {label: "Contact Address", name: "contact_address", widget: "string", default: "Cat Street 42, 00100 Helsinki"}
-          - {label: "Footer Text", name: "footer_text", widget: "text", default: "©  Purrfect Cat Café — All rights reserved."}
+          - {label: "Hero Image (Image)", name: "hero_image_1", widget: "image", default: "https://placekitten.com/1600/900"}
+          - {label: "Hero Title (Main Heading)", name: "hero_title_1", widget: "string", default: "Sip, Purr, Repeat"}
+          - {label: "Hero Subtitle", name: "hero_subtitle_1", widget: "text", default: "Specialty brews & the friendliest felines in town"}
+          - {label: "Hero Cta Text (Link)", name: "hero_cta_text_1", widget: "string", default: "#menu"}
+          - {label: "About Title (Section Heading)", name: "about_title_1", widget: "string", default: "Our Story"}
+          - {label: "About Content", name: "about_content_1", widget: "text", default: "Founded by cat-obsessed baristas, we blend artisan coffee with feline therapy. Every cup helps rescue kittens find forever homes."}
+          - {label: "About Image (Image)", name: "about_image_1", widget: "image", default: "https://placekitten.com/640/480"}
+          - {label: "Contact Email (Link)", name: "contact_email_1", widget: "string", default: "mailto:hello@purrfectcafe.com"}
+          - {label: "Contact Phone", name: "contact_phone_1", widget: "string", default: "+358 123 4567"}
+          - {label: "Contact Address", name: "contact_address_1", widget: "string", default: "Cat Street 42, 00100 Helsinki"}
+          - {label: "Footer Text", name: "footer_text_1", widget: "text", default: "©  Purrfect Cat Café — All rights reserved."}
           - {label: "Font Extrabold (Section Heading)", name: "font_extrabold", widget: "string", default: "Cat-inspired Treats"}
+          - {label: "Font Extrabold (Section Heading)", name: "font_extrabold_1", widget: "string", default: "What Our Guests Say"}
           - {label: "Font Bold (Section Heading)", name: "font_bold", widget: "string", default: "Get in Touch"}
           - {label: "Paragraph 1", name: "paragraph_1", widget: "text", default: "Freshly brewed drinks & paw-some pastries"}
     
